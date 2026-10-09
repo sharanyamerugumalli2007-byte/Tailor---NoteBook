@@ -1,0 +1,14 @@
+{
+  "name": "tailor-notebook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tailor Notebook – Digital Order Management System",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "db:init": "cd backend && npm run db:init"
+  }
+}
